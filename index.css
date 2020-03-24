@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.clock {
+    font-family: 'Baloo 2', cursive;
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: orange;
+    border: 3px solid black;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+body h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.clock p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-headers {
+    display:flex;
+    flex-direction: row;
+}
+
+.tab-headers li {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 20px;
+    list-style: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    width: 33%;
+}
+
+.tab-div {
+    display: block;
+    background-color:skyblue;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 200px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+.content {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: center; */
+}
+
+.parent-tab-div {
+    margin-top: 10px;
+}
+
+.tab-headers li:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
